@@ -38,7 +38,7 @@ class MrfCest():
         self.spin_grad_flag = seq_params['spin_grad_flag']
         
         self.delta_water_array, self.delta_solute_array, self.delta_semi_solid_array, self.delta_aliphatic_array = self.calculate_freq_deltas() 
-        self.mt_lineshape = self.calculate_mt_lineshape() # OC 11/28/2022
+        self.mt_lineshape = self.calculate_mt_lineshape() 
 
     def parse_tissue_params(self,tissue_dict):
         
